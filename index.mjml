@@ -4,92 +4,106 @@
     <mj-font name="Poppins" href="https://fonts.googleapis.com/css?family=Poppins" />
     <mj-font name="Asap" href="https://fonts.googleapis.com/css?family=Asap" />
   </mj-head>
-  <mj-body>
 
-    <mj-section padding="0" background-color="radial-gradient(68.07% 118.78% at 73.83% 70.99%, #7914DD 0%, #4F0599 58.33%)">
-      <mj-column>
-        <mj-image alt="scaleway logo" width="200px" href="https://www.scaleway.com/fr/" src="Scaleway-Logo-Purple-RGB 1.svg" />
-        <mj-image alt="background purple" padding="0" src="Headersansviolet.svg" />
-      </mj-column>
-    </mj-section>
+  <mj-body>
+    <mj-hero mode="fixed-height" height="356px" background-url="Header.svg" background-color="#4F0599">
+      <mj-image alt="scaleway logo" width="180px" href="https://www.scaleway.com/fr/" src="Scaleway-Logo-Purple-RGB 1.svg" />
+    </mj-hero>
 
     <mj-section background-color="#FFFFFF">
       <mj-column>
-        <mj-text align="center" font-weight="700" font-size="40px" line-height="35px" font-family="Poppins" color="#4F0599">Unlock a new experience</mj-text>
-        <mj-text align="center" font-weight="700" font-size="21px" line-height="32px" color="#AE5DF6">
-          <div style="max-width: 500px; margin: auto;">Link your Dedibox dedicated servers to the Scaleway console</div>
+        <mj-text align="center" font-weight="700" font-size="40px" line-height="35px" font-family="Poppins" color="#4F0599">
+          Unlock a new experience
         </mj-text>
-        <mj-button font-family="Asap" background-color="#6DD0B3" color="#FFFFFF" border-radius="4px" width="202px">
-          Get started
+        <mj-text align="center" font-weight="700" font-size="21px" line-height="32px" color="#AE5DF6">
+          <div style="max-width: 500px; margin: auto;">
+            Link your Dedibox dedicated servers to the Scaleway console
+          </div>
+        </mj-text>
+        <mj-button background-color="#6DD0B3" color="#FFFFFF" border-radius="4px" width="200px">
+          <mj-text font-weight="700" font-size="14px" line-height="24px" font-family="Asap">
+            Get started
+          </mj-text>
         </mj-button>
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#FFFFFF">
+    <mj-section padding-top="0" background-color="#FFFFFF">
       <mj-column>
-        <mj-text align="center" font-style="Asap" font-weight="400" font-size="14px" line-height="24px" font-family="Poppins" color="#4A4F62">
-          We now offer you the possibility to link all your Dedibox to the Scaleway console. <b style="cursor: pointer" href="/">The link is free</b>, and will bring you new opportunities. Manage all your Dedibox servers within a powerful easy-to-use console. Discover Scaleway cloud products and create a powerful environement, all at the same place!
+        <mj-text align="center" font-family="Asap" font-weight="400" font-size="14px" line-height="24px" color="#4A4F62">
+          We now offer you the possibility to link all your Dedibox to the
+          Scaleway console.
+          <b style="cursor: pointer" href="/">
+            The link is free
+          </b>
+          , and will bring you new opportunities. Manage all your Dedibox
+          servers within a powerful easy-to-use console. Discover Scaleway cloud
+          products and create a powerful environement, all at the same place!
         </mj-text>
       </mj-column>
     </mj-section>
 
     <mj-section background-color="#FFFFFF">
+      <mj-column padding-left="30px">
+        <mj-text padding-bottom="0" align="left" font-family="Poppins" font-weight="700" font-size="12px" line-height="32px" color="#AE5DF6">
+          What do we link?
+        </mj-text>
+        <mj-text padding-top="0" align="left" font-family="Poppins" font-weight="700" font-size="16px" line-height="24px" color="#4F0599">
+          All your Dedibox servers, services and options
+        </mj-text>
+        <mj-text padding-top="0" align="left" font-family="Asap" font-weight="400" font-size="12px" line-height="18px" color="#4A4F62">
+          Once the process is complete, you will be able to manage all your
+          ressources from the Scaleway Console.
+        </mj-text>
+      </mj-column>
       <mj-column>
         <mj-image alt="dedibox-servers" href="https://www.scaleway.com/fr/" src="1.svg" />
       </mj-column>
-      <mj-column padding-left="30px">
-        <mj-text padding-bottom="0" align="left" font-style="Poppins" font-weight="700" font-size="12px" line-height="32px" font-family="Poppins" color="#AE5DF6">
-          What do we link?
-        </mj-text>
-        <mj-text padding-top="0" align="left" font-style="Poppins" font-weight="700" font-size="16px" line-height="24px" font-family="Poppins" color="#4F0599">
-          All your Dedibox servers, services and options
-        </mj-text>
-        <mj-text padding-top="0" align="left" font-style="Asap" font-weight="400" font-size="12px" line-height="18px" color="#4A4F62">
-          Once the process is complete, you will be able to manage all your ressources from the Scaleway Console.
-        </mj-text>
-      </mj-column>
-
     </mj-section>
 
     <mj-section background-color="#FFFFFF" direction="rtl">
+      <mj-column padding-left="30px">
+        <mj-text padding-bottom="0" align="left" font-weight="700" font-size="12px" line-height="32px" font-family="Poppins" color="#AE5DF6">
+          Why should you do it?
+        </mj-text>
+        <mj-text padding-top="0" align="left" font-weight="700" font-size="16px" line-height="24px" font-family="Poppins" color="#4F0599">
+          Discover the best console experience on the market
+        </mj-text>
+        <mj-text padding-top="0" align="left" font-family="Asap" font-weight="400" font-size="12px" line-height="18px" color="#4A4F62">
+          Get the full power of Scaleway cloud products within a blazing fast
+          and smooth user interface.
+        </mj-text>
+      </mj-column>
       <mj-column>
         <mj-image alt="console experience" href="https://www.scaleway.com/fr/" src="2.svg" />
       </mj-column>
-      <mj-column padding-left="30px">
-        <mj-text padding-bottom="0" align="left" font-style="Poppins" font-weight="700" font-size="12px" line-height="32px" font-family="Poppins" color="#AE5DF6">
-          Why should you do it?
-        </mj-text>
-        <mj-text padding-top="0" align="left" font-style="Poppins" font-weight="700" font-size="16px" line-height="24px" font-family="Poppins" color="#4F0599">
-          Discover the best console experience on the market
-        </mj-text>
-        <mj-text padding-top="0" align="left" font-style="Asap" font-weight="400" font-size="12px" line-height="18px" color="#4A4F62">
-          Get the full power of Scaleway cloud products within a blazing fast and smooth user interface.
-        </mj-text>
-      </mj-column>
     </mj-section>
 
     <mj-section background-color="#FFFFFF">
+      <mj-column padding-left="30px">
+        <mj-text padding-bottom="0" align="left" font-weight="700" font-size="12px" line-height="32px" font-family="Poppins" color="#AE5DF6">
+          Explore new opportunities
+        </mj-text>
+        <mj-text padding-top="0" align="left" font-weight="700" font-size="16px" line-height="24px" font-family="Poppins" color="#4F0599">
+          Get a €100 voucher to discover new products
+        </mj-text>
+        <mj-text padding-top="0" align="left" font-family="Asap" font-weight="400" font-size="12px" line-height="18px" color="#4A4F62">
+          Even if you already have a Scaleway Elements account! Discover the new
+          Dedibox dashboard and take some time to check out our cloud products
+          and features, like Instances, Object Storage and much more.
+        </mj-text>
+      </mj-column>
       <mj-column>
         <mj-image alt="100 voucher" href="https://www.scaleway.com/fr/" src="3.svg" />
       </mj-column>
-      <mj-column padding-left="30px">
-        <mj-text padding-bottom="0" align="left" font-style="Poppins" font-weight="700" font-size="12px" line-height="32px" font-family="Poppins" color="#AE5DF6">
-          Explore new opportunities
-        </mj-text>
-        <mj-text padding-top="0" align="left" font-style="Poppins" font-weight="700" font-size="16px" line-height="24px" font-family="Poppins" color="#4F0599">
-          Get a €100 voucher to discover new products
-        </mj-text>
-        <mj-text padding-top="0" align="left" font-style="Asap" font-weight="400" font-size="12px" line-height="18px" color="#4A4F62">
-          Even if you already have a Scaleway Elements account! Discover the new Dedibox dashboard and take some time to check out our cloud products and features, like Instances, Object Storage and much more.
-        </mj-text>
-      </mj-column>
-
     </mj-section>
 
     <mj-section background-color="#FFFFFF">
       <mj-column>
-        <mj-button font-family="Asap" background-color="#6DD0B3" color="#FFFFFF" border-radius="4px" width="202px">
-          Get started
+        <mj-button background-color="#6DD0B3" color="#FFFFFF" border-radius="4px" width="200px">
+          <mj-text font-weight="700" font-size="14px" line-height="24px" font-family="Asap">
+            Get started
+          </mj-text>
         </mj-button>
       </mj-column>
     </mj-section>
@@ -100,7 +114,8 @@
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#4F0599">
+
+    <mj-section background-color="#4F0599" padding-bottom="0">
       <mj-column>
         <mj-text align="center" font-weight="700" font-size="25px" line-height="35px" font-family="Poppins" color="#FFFFFF">
           F.A.Q
@@ -110,80 +125,56 @@
 
     <mj-section background-color="#4F0599">
       <mj-column>
-        <mj-text font-weight="400" font-size="16px" line-height="24px" font-family="Poppins" color="#FFFFFF">
+        <mj-text padding-bottom="0" font-weight="400" font-size="16px" line-height="24px" font-family="Poppins" color="#FFFFFF">
           Q. What exactly is going to be linked?
         </mj-text>
-        <mj-text padding-top="0" align="left" font-weight="400" font-size="12px" line-height="18px" font-family="Asap" color="#FFFFFF">
-          We link all of your dedicated resources in a brand new interface! Web domains and web hosting will not be linked at this stage, but will remain accessible in your current console.
+        <mj-text align="left" font-weight="400" font-size="12px" line-height="18px" font-family="Asap" color="#FFFFFF">
+          We link all of your dedicated resources in a brand new interface! Web
+          domains and web hosting will not be linked at this stage, but will
+          remain accessible in your current console.
         </mj-text>
-      </mj-column>
-    </mj-section>
 
-    <mj-section background-color="#4F0599">
-      <mj-column>
-        <mj-divider padding-top="0" padding-bottom="0" border-width="1px" border-style="solid" border-color="#D4DAE7" />
-      </mj-column>
-    </mj-section>
+        <mj-divider border-width="1px" border-style="solid" border-color="#D4DAE7" />
 
-    <mj-section background-color="#4F0599">
-      <mj-column>
-        <mj-text font-weight="400" font-size="16px" line-height="24px" font-family="Poppins" color="#FFFFFF" padding-top="0" padding-bottom="0">
+        <mj-text padding-bottom="0" font-weight="400" font-size="16px" line-height="24px" font-family="Poppins" color="#FFFFFF">
           Q. How long will it take?
         </mj-text>
-        <mj-text padding-top="0" align="left" font-weight="400" font-size="12px" line-height="18px" font-family="Asap" color="#FFFFFF">
-          The process is just a 5 minute link. The time for you to review your account information and voilà!
+        <mj-text align="left" font-weight="400" font-size="12px" line-height="18px" font-family="Asap" color="#FFFFFF">
+          The process is just a 5 minute link. The time for you to review your
+          account information and voilà!
         </mj-text>
-      </mj-column>
-    </mj-section>
 
-    <mj-section background-color="#4F0599">
-      <mj-column>
-        <mj-divider padding-top="0" padding-bottom="0" border-width="1px" border-style="solid" border-color="#D4DAE7" />
-      </mj-column>
-    </mj-section>
+        <mj-divider border-width="1px" border-style="solid" border-color="#D4DAE7" />
 
-    <mj-section background-color="#4F0599">
-      <mj-column>
-        <mj-text font-weight="400" font-size="16px" line-height="24px" font-family="Poppins" color="#FFFFFF" padding-top="0" padding-bottom="0">
+        <mj-text padding-bottom="0" font-weight="400" font-size="16px" line-height="24px" font-family="Poppins" color="#FFFFFF">
           Q. Will it replace the current console?
         </mj-text>
-        <mj-text padding-top="0" align="left" font-weight="400" font-size="12px" line-height="18px" font-family="Asap" color="#FFFFFF">
-          Some operations are not yet available in the Scaleway console, but you will soon be able to do everything you need. In the meantime, your current console remains available.
+        <mj-text align="left" font-weight="400" font-size="12px" line-height="18px" font-family="Asap" color="#FFFFFF">
+          Some operations are not yet available in the Scaleway console, but you
+          will soon be able to do everything you need. In the meantime, your
+          current console remains available.
         </mj-text>
-      </mj-column>
-    </mj-section>
 
-    <mj-section background-color="#4F0599">
-      <mj-column>
-        <mj-divider padding-top="0" padding-bottom="0" border-width="1px" border-style="solid" border-color="#D4DAE7" />
-      </mj-column>
-    </mj-section>
+        <mj-divider border-width="1px" border-style="solid" border-color="#D4DAE7" />
 
-    <mj-section background-color="#4F0599">
-      <mj-column>
-        <mj-text font-weight="400" font-size="16px" line-height="24px" font-family="Poppins" color="#FFFFFF" padding-top="0" padding-bottom="0">
+        <mj-text padding-bottom="0" font-weight="400" font-size="16px" line-height="24px" font-family="Poppins" color="#FFFFFF">
           Q. Can I still use the Dedibox console online.net after the upgrade?
         </mj-text>
-        <mj-text padding-top="0" align="left" font-weight="400" font-size="12px" line-height="18px" font-family="Asap" color="#FFFFFF">
+        <mj-text align="left" font-weight="400" font-size="12px" line-height="18px" font-family="Asap" color="#FFFFFF">
           Yes you can.
         </mj-text>
+        <mj-divider border-width="1px" border-style="solid" border-color="#D4DAE7" />
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#4F0599">
+    <mj-section background-color="#4F0599" padding-top="0">
       <mj-column>
-        <mj-divider padding-top="0" padding-bottom="0" border-width="1px" border-style="solid" border-color="#D4DAE7" />
-      </mj-column>
-    </mj-section>
-
-    <mj-section background-color="#4F0599">
-      <mj-column>
-        <mj-button font-family="Asap" background-color="#6DD0B3" color="#FFFFFF" border-radius="4px" width="202px">
-          Get started
+        <mj-button background-color="#6DD0B3" color="#FFFFFF" border-radius="4px" width="200px">
+          <mj-text font-weight="700" font-size="14px" line-height="24px" font-family="Asap">
+            Get started
+          </mj-text>
         </mj-button>
         <mj-image alt="background purple-cloud" width="200px" href="https://www.scaleway.com/fr/" src="Scaleway-Logo-Purple-RGB 1.svg" />
       </mj-column>
-    </mj-section>
-
   </mj-body>
-</mjml>
+</mjml>;

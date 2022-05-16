@@ -2,12 +2,13 @@
   "name": "scaleway-mail",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "pierre <pierre.kfoury@iziwork.com>",
+  "author": "pierre <pierrekfou@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "mjml": "^4.12.0"
   },
   "scripts": {
-    "build": "mjml build index.mjml -o index.html"
+    "build": "mjml build index.mjml -o index.html",
+    "dev": "mjml -w index.mjml -o index.html"
   }
 }
