@@ -1,5 +1,6 @@
-<mjml>
+<mjml lang="en">
   <mj-head>
+    <mj-title>Scaleway newsletter</mj-title>
     <mj-font name="Poppins" href="https://fonts.googleapis.com/css?family=Poppins" />
     <mj-font name="Asap" href="https://fonts.googleapis.com/css?family=Asap" />
   </mj-head>
@@ -7,8 +8,8 @@
 
     <mj-section padding="0" background-color="radial-gradient(68.07% 118.78% at 73.83% 70.99%, #7914DD 0%, #4F0599 58.33%)">
       <mj-column>
-        <mj-image width="200px" href="https://www.scaleway.com/fr/" src="Scaleway-Logo-Purple-RGB 1.svg" />
-        <mj-image padding="0" src="Headersansviolet.svg" />
+        <mj-image alt="scaleway logo" width="200px" href="https://www.scaleway.com/fr/" src="Scaleway-Logo-Purple-RGB 1.svg" />
+        <mj-image alt="background purple" padding="0" src="Headersansviolet.svg" />
       </mj-column>
     </mj-section>
 
@@ -34,7 +35,7 @@
 
     <mj-section background-color="#FFFFFF">
       <mj-column>
-        <mj-image href="https://www.scaleway.com/fr/" src="1.svg" />
+        <mj-image alt="dedibox-servers" href="https://www.scaleway.com/fr/" src="1.svg" />
       </mj-column>
       <mj-column padding-left="30px">
         <mj-text padding-bottom="0" align="left" font-style="Poppins" font-weight="700" font-size="12px" line-height="32px" font-family="Poppins" color="#AE5DF6">
@@ -52,7 +53,7 @@
 
     <mj-section background-color="#FFFFFF" direction="rtl">
       <mj-column>
-        <mj-image href="https://www.scaleway.com/fr/" src="2.svg" />
+        <mj-image alt="console experience" href="https://www.scaleway.com/fr/" src="2.svg" />
       </mj-column>
       <mj-column padding-left="30px">
         <mj-text padding-bottom="0" align="left" font-style="Poppins" font-weight="700" font-size="12px" line-height="32px" font-family="Poppins" color="#AE5DF6">
@@ -69,7 +70,7 @@
 
     <mj-section background-color="#FFFFFF">
       <mj-column>
-        <mj-image href="https://www.scaleway.com/fr/" src="3.svg" />
+        <mj-image alt="100 voucher" href="https://www.scaleway.com/fr/" src="3.svg" />
       </mj-column>
       <mj-column padding-left="30px">
         <mj-text padding-bottom="0" align="left" font-style="Poppins" font-weight="700" font-size="12px" line-height="32px" font-family="Poppins" color="#AE5DF6">
@@ -95,7 +96,7 @@
 
     <mj-section padding="0" background-color="#FFFFFF">
       <mj-column>
-        <mj-image padding="0" src="Footer.svg" />
+        <mj-image alt="background purple-cloud" padding="0" src="Footer.svg" />
       </mj-column>
     </mj-section>
 
@@ -180,7 +181,7 @@
         <mj-button font-family="Asap" background-color="#6DD0B3" color="#FFFFFF" border-radius="4px" width="202px">
           Get started
         </mj-button>
-        <mj-image width="200px" href="https://www.scaleway.com/fr/" src="Scaleway-Logo-Purple-RGB 1.svg" />
+        <mj-image alt="background purple-cloud" width="200px" href="https://www.scaleway.com/fr/" src="Scaleway-Logo-Purple-RGB 1.svg" />
       </mj-column>
     </mj-section>
 
