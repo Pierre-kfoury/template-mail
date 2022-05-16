@@ -11,9 +11,7 @@
         <mj-image padding="0" src="Headersansviolet.svg" />
       </mj-column>
     </mj-section>
-    <mj-raw>
-      <!-- Intro text -->
-    </mj-raw>
+
     <mj-section background-color="#FFFFFF">
       <mj-column>
         <mj-text align="center" font-weight="700" font-size="40px" line-height="35px" font-family="Poppins" color="#4F0599">Unlock a new experience</mj-text>
@@ -185,8 +183,6 @@
         <mj-image width="200px" href="https://www.scaleway.com/fr/" src="Scaleway-Logo-Purple-RGB 1.svg" />
       </mj-column>
     </mj-section>
-
-
 
   </mj-body>
 </mjml>
