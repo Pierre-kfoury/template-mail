@@ -32,9 +32,9 @@
           We now offer you the possibility to link all your Dedibox to the
           Scaleway console.
           <b>
-            The link is free
+            The link is free,
           </b>
-          , and will bring you new opportunities. Manage all your Dedibox
+          and will bring you new opportunities. Manage all your Dedibox
           servers within a powerful easy-to-use console. Discover Scaleway cloud
           products and create a powerful environement, all at the same place!
         </mj-text>
@@ -104,23 +104,13 @@
       </mj-column>
     </mj-section>
 
-    <mj-section padding="0">
+    <mj-section background-color="#4F0599" padding="0">
       <mj-column>
-        <mj-image padding="0" alt="background purple-cloud" src="Footer.svg" />
-      </mj-column>
-    </mj-section>
-
-
-    <mj-section background-color="#4F0599" padding-bottom="0">
-      <mj-column>
+        <mj-image padding="0" alt="background purple-cloud" src="Footer.svg" container-background-color="#FFFFFF" />
         <mj-text align="center" font-weight="700" font-size="25px" line-height="35px" font-family="Poppins" color="#FFFFFF">
           F.A.Q
         </mj-text>
-      </mj-column>
-    </mj-section>
-
-    <mj-section background-color="#4F0599">
-      <mj-column>
+        <mj-spacer height="20px" />
         <mj-text padding-bottom="0" font-weight="600" font-size="16px" line-height="24px" font-family="Poppins" color="#FFFFFF">
           Q. What exactly is going to be linked?
         </mj-text>
@@ -159,16 +149,16 @@
         <mj-text align="left" font-weight="400" font-size="12px" line-height="18px" font-family="Asap" color="#FFFFFF">
           Yes you can.
         </mj-text>
-        <mj-divider border-width="1px" border-style="solid" border-color="#D4DAE7" />
-      </mj-column>
-    </mj-section>
 
-    <mj-section background-color="#4F0599" padding-top="0">
-      <mj-column>
+        <mj-divider border-width="1px" border-style="solid" border-color="#D4DAE7" />
+
+        <mj-spacer height="20px" />
         <mj-button height="16px" background-color="#22C8A2" color="#FFFFFF" border-radius="4px" width="200px" font-weight="700" font-size="14px" line-height="20px" font-family="Asap">
           Get started
         </mj-button>
         <mj-image alt="background purple-cloud" width="200px" href="https://www.scaleway.com/fr/" src="Scaleway-Logo-Purple-RGB 1.svg" />
+
       </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>;
