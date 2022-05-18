@@ -55,7 +55,7 @@
         </mj-text>
       </mj-column>
       <mj-column>
-        <mj-image width="240px" alt="dedibox-servers" href="https://www.scaleway.com/fr/" src="1.svg" />
+        <mj-image width="240px" alt="dedibox-servers" href="https://www.scaleway.com/fr/" src="imgList@2x.png" />
       </mj-column>
     </mj-section>
 
@@ -73,7 +73,7 @@
         </mj-text>
       </mj-column>
       <mj-column>
-        <mj-image width="240px" alt="console experience" href="https://www.scaleway.com/fr/" src="2.svg" />
+        <mj-image width="240px" alt="console experience" href="https://www.scaleway.com/fr/" src="imgConsole@2x.png" />
       </mj-column>
     </mj-section>
 
@@ -92,7 +92,7 @@
         </mj-text>
       </mj-column>
       <mj-column>
-        <mj-image width="240px" alt="100 voucher" href="https://www.scaleway.com/fr/" src="3.svg" />
+        <mj-image width="240px" alt="100 voucher" href="https://www.scaleway.com/fr/" src="imgVoucher@2x.png" />
       </mj-column>
     </mj-section>
 
