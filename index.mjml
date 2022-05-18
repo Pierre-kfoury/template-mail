@@ -55,7 +55,7 @@
         </mj-text>
       </mj-column>
       <mj-column>
-        <mj-image width="240px" alt="dedibox-servers" href="https://www.scaleway.com/fr/" src="imgList@2x.png" />
+        <mj-image width="240px" alt="dedibox-servers" src="imgList@2x.png" />
       </mj-column>
     </mj-section>
 
@@ -73,7 +73,7 @@
         </mj-text>
       </mj-column>
       <mj-column>
-        <mj-image width="240px" alt="console experience" href="https://www.scaleway.com/fr/" src="imgConsole@2x.png" />
+        <mj-image width="240px" alt="console experience" src="imgConsole@2x.png" />
       </mj-column>
     </mj-section>
 
@@ -92,7 +92,7 @@
         </mj-text>
       </mj-column>
       <mj-column>
-        <mj-image width="240px" alt="100 voucher" href="https://www.scaleway.com/fr/" src="imgVoucher@2x.png" />
+        <mj-image width="240px" alt="100 voucher" src="imgVoucher@2x.png" />
       </mj-column>
     </mj-section>
 
@@ -108,7 +108,9 @@
       <mj-column>
         <mj-image padding="0" alt="background purple-cloud" src="Footer.svg" container-background-color="#FFFFFF" />
         <mj-text align="center" font-weight="700" font-size="25px" line-height="35px" font-family="Poppins" color="#FFFFFF">
-          F.A.Q
+          <mj-button href="https://link-dedibox.scaleway.com/ " style="cursor: pointer">
+            F.A.Q
+          </mj-button>
         </mj-text>
         <mj-spacer height="20px" />
         <mj-text padding-bottom="0" font-weight="600" font-size="16px" line-height="24px" font-family="Poppins" color="#FFFFFF">
