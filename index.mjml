@@ -108,13 +108,11 @@
       <mj-column>
         <mj-image padding="0" alt="background purple-cloud" src="Footer.svg" container-background-color="#FFFFFF" />
         <mj-text align="center" font-weight="700" font-size="25px" line-height="35px" font-family="Poppins" color="#FFFFFF">
-          <mj-button href="https://link-dedibox.scaleway.com/ " style="cursor: pointer">
-            F.A.Q
-          </mj-button>
+          <a href="https://scaleway.com/en/docs/faq/dedibox-to-elements/" style="color: #FFFFFF; text-decoration: none" href="tototo">F.A.Q</a>
         </mj-text>
         <mj-spacer height="20px" />
         <mj-text padding-bottom="0" font-weight="600" font-size="16px" line-height="24px" font-family="Poppins" color="#FFFFFF">
-          Q. What exactly is going to be linked?
+          <a href="https://scaleway.com/en/docs/faq/dedibox-to-elements/" style="color: #FFFFFF; text-decoration: none" href="tototo">Q. What exactly is going to be linked?</a>
         </mj-text>
         <mj-text align="left" font-weight="400" font-size="12px" line-height="18px" font-family="Asap" color="#FFFFFF">
           We link all of your dedicated resources in a brand new interface! Web
@@ -125,7 +123,7 @@
         <mj-divider border-width="1px" border-style="solid" border-color="#D4DAE7" />
 
         <mj-text padding-bottom="0" font-weight="600" font-size="16px" line-height="24px" font-family="Poppins" color="#FFFFFF">
-          Q. How long will it take?
+          <a href="https://scaleway.com/en/docs/faq/dedibox-to-elements/" style="color: #FFFFFF; text-decoration: none" href="tototo">Q. How long will it take?</a>
         </mj-text>
         <mj-text align="left" font-weight="400" font-size="12px" line-height="18px" font-family="Asap" color="#FFFFFF">
           The process is just a 5 minute link. The time for you to review your
@@ -135,7 +133,7 @@
         <mj-divider border-width="1px" border-style="solid" border-color="#D4DAE7" />
 
         <mj-text padding-bottom="0" font-weight="600" font-size="16px" line-height="24px" font-family="Poppins" color="#FFFFFF">
-          Q. Will it replace the current console?
+          <a href="https://scaleway.com/en/docs/faq/dedibox-to-elements/" style="color: #FFFFFF; text-decoration: none" href="tototo">Q. Will it replace the current console?</a>
         </mj-text>
         <mj-text align="left" font-weight="400" font-size="12px" line-height="18px" font-family="Asap" color="#FFFFFF">
           Some operations are not yet available in the Scaleway console, but you
@@ -146,7 +144,7 @@
         <mj-divider border-width="1px" border-style="solid" border-color="#D4DAE7" />
 
         <mj-text padding-bottom="0" font-weight="600" font-size="16px" line-height="24px" font-family="Poppins" color="#FFFFFF">
-          Q. Can I still use the Dedibox console online.net after the upgrade?
+          <a href="https://scaleway.com/en/docs/faq/dedibox-to-elements/" style="color: #FFFFFF; text-decoration: none" href="tototo">Q. Can I still use the Dedibox console online.net after the upgrade?</a>
         </mj-text>
         <mj-text align="left" font-weight="400" font-size="12px" line-height="18px" font-family="Asap" color="#FFFFFF">
           Yes you can.
